@@ -24,6 +24,46 @@ export const ListaArticulo = ({ props, setter }) => {
           </div>
         </div>
       ))}
+      <div className="articulo">
+        <table>
+          <tr>
+            <td id="imagenesDetalles" rowSpan={2}>
+              <img
+                src="https://i.ytimg.com/vi/2HNP4nTLj9k/sddefault.jpg"
+                className="card-img-top"
+                alt="Sudadera Personajes Kimetsu"
+              />
+            </td>
+            <td id="articuloDetalles">
+              <div className="detallesArticulo">
+                <p className="card-text card-articulo" id="articuloName">
+                  Titulo Articulo
+                </p>
+                
+                <p className="card-text card-articulo" id="articuloDis">
+                  Disponibilidad
+                </p>
+              </div>
+            </td>
+            <td id="preciosDetalles" rowSpan={2}>
+              <p className="card-text" id="articuloPrice">Precio
+              </p>
+            </td>
+          </tr>
+          <tr>
+          <div id="cantidadArticulos">
+                <p>
+                Cosito de cantidad
+                </p>
+              </div>
+          </tr>
+          <tr>
+            <td colSpan={3} id="subTotalVenta">
+              <p>Subtotal</p>
+            </td>
+          </tr>
+        </table>
+      </div>
     </ul>
   );
 };
