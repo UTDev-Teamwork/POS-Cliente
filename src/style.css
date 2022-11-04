@@ -131,3 +131,68 @@ body{
     border: solid 1px #1e437d;
 }
  
+.articulo{
+    background: rgba(226, 226, 226, 0.5);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#articuloName{
+    font-size: 20px;
+}
+
+#articuloPrice{
+    font-size: 22px;
+    margin-top: 0;
+    color: #199139;
+    font-weight: 900;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+}
+
+#imagenesDetalles{
+    width: 25%;
+    height: 200px;
+}
+
+#articuloName{
+    width: 25%;
+    display: inline;
+}
+
+#articuloDetalles{
+    text-align: justify;
+    vertical-align: top;
+    padding: 2%;
+}
+
+#preciosDetalles{
+    width: 20%;
+    vertical-align: top;
+    padding-top: 2%;
+}
+
+.imagenArticulo{
+    width: 200px;
+    height: 200px;
+}
+
+#cantidadArticulos{
+    vertical-align: bottom;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+#subTotalVenta{
+    height: auto;
+    text-align: right;
+    padding: 0;
+    padding-top: 2%;
+    padding-right: 3%;
+    font-weight: 800;
+    border-top: 2px solid rgb(232, 232, 232);
+}
